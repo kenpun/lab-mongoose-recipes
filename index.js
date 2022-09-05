@@ -5,7 +5,10 @@ const Recipe = require('./models/Recipe.model');
 // Import of the data from './data.json'
 const data = require('./data');
 
-const MONGODB_URI = 'mongodb://localhost:27017/recipe-app';
+// local mongodb_URI = 'mongodb://localhost:27017/recipe-app';
+const MONGODB_URI = 'mongodb+srv://recipe-user_1:IemWIx4ISu0lYrB9@cluster0.emjpdm5.mongodb.net/mongoose-recipes';
+
+// Model.create
 
 // Connection to the database "recipe-app"
 mongoose
